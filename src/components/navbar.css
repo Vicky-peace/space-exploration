@@ -44,3 +44,47 @@
     background-color: var(--color-white);
     transition: width 0.3s ease-in-out;
 }
+
+/* Humberger menu style
+.humberger{
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    padding: 0;
+} */
+
+/* .humberger .line{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(170, 29, 29);
+} */
+
+/* Media query for small and medium screens */
+/*
+@media screen and (max-width: 768px) {
+    .nav-container ul {
+      display: none; 
+      flex-direction: column;
+      align-items: center;
+      background-color: #f9f9f9;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+    }
+  
+    .nav-container.open ul {
+      display: flex; 
+    }
+
+    .hamburger {
+      display: flex; 
+    }
+  }
