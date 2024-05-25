@@ -45,7 +45,7 @@
     transition: width 0.3s ease-in-out;
 }
 
-/* Humberger menu style
+
 .humberger{
     display: none;
     flex-direction: column;
@@ -56,7 +56,7 @@
     background: transparent;
     border: none;
     padding: 0;
-} */
+}
 
 /* .humberger .line{
     width: 100%;
