@@ -6,6 +6,7 @@ import Home from './pages/Home/Home';
 import Destination from './pages/Destination/Destination';
 
 
+
 function App() {
  
 
@@ -14,8 +15,10 @@ function App() {
     <Router>
     <Navbar/>
       <Routes>
-          <Route path='/' Component={Home}/>
-          <Route path='/dest' Component={Destination}/>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/dest/*' element={<Destination/>}/>
+          
+        
       </Routes>
 
     </Router>

@@ -1,0 +1,28 @@
+
+.destination-details {
+    text-align: center;
+  }
+  
+  .destination-image {
+    width: 300px;
+    height: auto;
+  }
+  
+  .details {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .detail-item {
+    text-align: center;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .value {
+    font-size: 1.2em;
+  }
+  
